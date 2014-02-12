@@ -10,12 +10,12 @@ The ending footer of a .jpg file is FF D9. In the RFC / standards of a JPG, all 
 a 6-byte sanity check is performed, looking for the 6 bytes of "\xd9\xff\x24\x42\x00\x00" in a JPG. If found, it starts decoding the blob, -2 bytes
 
 ### How to encode
-'''
+```
 python imageEncode.py e hitch.jpg output.jpg "This is a test. woot"
-'''
+```
 
 ### How to decode
 
-'''
+```
 python imageEncode.py d output.jpg
-'''
+```
